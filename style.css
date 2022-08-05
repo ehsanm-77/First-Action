@@ -1,3 +1,6 @@
+body{
+  font-family: sans-serif;
+}
 .top{
     display: grid;
     grid-template-columns: .25fr 1fr 100px;
@@ -28,16 +31,16 @@
     background-color: #262c30;
 }
 .leftbar{
-    display: flex;
-    /* grid-template-columns: .1000fr;
-    grid-template-rows: repeat(11,50px) ; */
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: repeat(11,50px) ;
     font-family: sans-serif;
     background-color: #f8f9fb;
     margin-top: 10px;
-    height: 100%;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 70%;
+    width: 200px;
+    float: left;
+    height: 570px;
 }
 
 .savereports{
@@ -57,6 +60,7 @@ h2{
   border-top: 1px solid #dadfe7;
   width: 269px;
   background-color: #f8f9fb;
+
 }
 
 .search{
@@ -69,8 +73,37 @@ h2{
   margin-left: 10px;
 }
 
-.plusbtn{
+/* .plusbtn{
   position: relative;
   left: 105px;
   top: 3px;
+} */
+
+.table {
+    display: table;
+    width: 700px;
+    text-shadow: 1px 1px rgb(152, 143, 143);
+    border-spacing: 0px;
+    width: 1300px;
+    height: 550px;
+    padding-left: 30PX;
+ 
+
 }
+
+.back {
+    background: rgb(192, 186, 186);
+
+}
+
+/* 
+table,
+th,
+td {
+    border-top: solid rgb(136, 127, 127);
+    border-bottom: solid rgb(136, 127, 127);
+} */
+.sidebarcontainer{
+  display: inline;
+}
+
