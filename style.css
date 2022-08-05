@@ -1,6 +1,6 @@
 .top{
     display: grid;
-    grid-template-columns: .25fr 1fr 70px;
+    grid-template-columns: .25fr 1fr 100px;
     grid-template-rows: .12fr;
     background-color: #494e54;
     color: white;
@@ -17,13 +17,60 @@
 }
 .ender{
       background-color: #34373f;
+      width: 100px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255, 255, 255, 0.3);
 }
 .firter{
     background-color: #262c30;
 }
 .leftbar{
-    display: grid;
-    grid-template-columns: .25fr;
-    grid-template-rows: repeat(11,50px) ;
+    display: flex;
+    /* grid-template-columns: .1000fr;
+    grid-template-rows: repeat(11,50px) ; */
     font-family: sans-serif;
+    background-color: #f8f9fb;
+    margin-top: 10px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+}
+
+.savereports{
+  color: rgb(123, 107, 107)
+}
+
+
+h2{
+  margin-left: 10px;
+  
+}
+.sidebarcontainer{
+  
+  padding-left: 10px;
+  height: 710px;
+  border-right: 0.5px solid #dadfe7;
+  border-top: 1px solid #dadfe7;
+  width: 269px;
+  background-color: #f8f9fb;
+}
+
+.search{
+  margin-left: 15px;
+  color: rgb(255, 255, 255, 0.3);
+}
+
+.bar:hover{
+  color: blue;
+  margin-left: 10px;
+}
+
+.plusbtn{
+  position: relative;
+  left: 105px;
+  top: 3px;
 }
