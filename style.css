@@ -1,0 +1,20 @@
+.table {
+    display: table;
+    width: 700px;
+    text-shadow: 1px 1px rgb(152, 143, 143);
+    border-spacing: 0px;
+
+}
+
+.back {
+    background: rgb(192, 186, 186);
+
+}
+
+/* 
+table,
+th,
+td {
+    border-top: solid rgb(136, 127, 127);
+    border-bottom: solid rgb(136, 127, 127);
+} */
