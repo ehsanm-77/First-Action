@@ -1,0 +1,29 @@
+.top{
+    display: grid;
+    grid-template-columns: .25fr 1fr 70px;
+    grid-template-rows: .12fr;
+    background-color: #494e54;
+    color: white;
+    font-family: sans-serif;
+}
+.top > h3{
+  justify-self: end;
+
+ 
+}
+.top >p{
+  align-self: center;
+   background-color:#494e54 ;
+}
+.ender{
+      background-color: #34373f;
+}
+.firter{
+    background-color: #262c30;
+}
+.leftbar{
+    display: grid;
+    grid-template-columns: .25fr;
+    grid-template-rows: repeat(11,50px) ;
+    font-family: sans-serif;
+}
